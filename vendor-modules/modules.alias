@@ -1,7 +1,6 @@
 # Aliases extracted from modules themselves.
 alias of:N*T*Cqcom,msm-ext-disp-audio-codec-rx hdmi_dlkm
 alias of:N*T*Cqcom,msm-ext-disp-audio-codec-rxC* hdmi_dlkm
-alias platform:goodix_ts goodix_core
 alias i2c:mxl301rf mxl301rf
 alias i2c:si2157 si2157
 alias i2c:si2146 si2157
@@ -64,7 +63,6 @@ alias of:N*T*Cqcom,msm-voip-dsp platform_dlkm
 alias of:N*T*Cqcom,msm-voip-dspC* platform_dlkm
 alias of:N*T*Cqcom,msm-transcode-loopback platform_dlkm
 alias of:N*T*Cqcom,msm-transcode-loopbackC* platform_dlkm
-alias i2c:tfa98xx tfa98xx_dlkm
 alias platform:swr-mstr swr_ctrl_dlkm
 alias of:N*T*Cqcom,sn-nci nfc_i2c
 alias of:N*T*Cqcom,sn-nciC* nfc_i2c
@@ -84,8 +82,6 @@ alias of:N*T*Cqcom,csid480 camera
 alias of:N*T*Cqcom,csid480C* camera
 alias of:N*T*Cqcom,csid580 camera
 alias of:N*T*Cqcom,csid580C* camera
-alias of:N*T*Cqcom,csid165_204 camera
-alias of:N*T*Cqcom,csid165_204C* camera
 alias of:N*T*Cqcom,csid-lite170 camera
 alias of:N*T*Cqcom,csid-lite170C* camera
 alias of:N*T*Cqcom,csid-lite175 camera
@@ -94,8 +90,6 @@ alias of:N*T*Cqcom,csid-lite480 camera
 alias of:N*T*Cqcom,csid-lite480C* camera
 alias of:N*T*Cqcom,csid-lite580 camera
 alias of:N*T*Cqcom,csid-lite580C* camera
-alias of:N*T*Cqcom,csid-lite165 camera
-alias of:N*T*Cqcom,csid-lite165C* camera
 alias of:N*T*Cqcom,vfe170 camera
 alias of:N*T*Cqcom,vfe170C* camera
 alias of:N*T*Cqcom,vfe170_150 camera
@@ -108,8 +102,6 @@ alias of:N*T*Cqcom,vfe480 camera
 alias of:N*T*Cqcom,vfe480C* camera
 alias of:N*T*Cqcom,vfe580 camera
 alias of:N*T*Cqcom,vfe580C* camera
-alias of:N*T*Cqcom,vfe165_160 camera
-alias of:N*T*Cqcom,vfe165_160C* camera
 alias of:N*T*Cqcom,vfe-lite170 camera
 alias of:N*T*Cqcom,vfe-lite170C* camera
 alias of:N*T*Cqcom,vfe-lite175 camera
@@ -118,8 +110,6 @@ alias of:N*T*Cqcom,vfe-lite480 camera
 alias of:N*T*Cqcom,vfe-lite480C* camera
 alias of:N*T*Cqcom,vfe-lite580 camera
 alias of:N*T*Cqcom,vfe-lite580C* camera
-alias of:N*T*Cqcom,vfe-lite165 camera
-alias of:N*T*Cqcom,vfe-lite165C* camera
 alias of:N*T* camera
 alias of:N*T*C* camera
 alias of:N*T*Cqcom,tpg101 camera
@@ -138,8 +128,6 @@ alias of:N*T*Cqcom,cam_jpeg_enc camera
 alias of:N*T*Cqcom,cam_jpeg_encC* camera
 alias of:N*T*Cqcom,cam_jpeg_dma camera
 alias of:N*T*Cqcom,cam_jpeg_dmaC* camera
-alias of:N*T*Cqcom,lrme camera
-alias of:N*T*Cqcom,lrmeC* camera
 alias of:N*T*Cqcom,actuator camera
 alias of:N*T*Cqcom,actuatorC* camera
 alias of:N*T*Cqcom,cci camera
@@ -164,11 +152,16 @@ alias of:N*T*Cqcom,csid-custom580 camera
 alias of:N*T*Cqcom,csid-custom580C* camera
 alias i2c:m88rs6000t m88rs6000t
 alias i2c:tda18250 tda18250
+alias of:N*T*Ccy,cyttsp5_i2c_adapter cyttsp5_i2c
+alias of:N*T*Ccy,cyttsp5_i2c_adapterC* cyttsp5_i2c
+alias i2c:cyttsp5_i2c_adapter cyttsp5_i2c
 alias of:N*T*Cqcom,wcn6750 icnss2
 alias of:N*T*Cqcom,wcn6750C* icnss2
 alias of:N*T*Cqcom,icnss icnss2
 alias of:N*T*Cqcom,icnssC* icnss2
-alias usbfunc:dtp usb_f_dtp
+alias i2c:stmvl53l5 stmvl53l5
+alias of:N*T*Cst,stmvl53l5 stmvl53l5
+alias of:N*T*Cst,stmvl53l5C* stmvl53l5
 alias spi:msi001 msi001
 alias of:N*T*Cqcom,msm-audio-ion q6_dlkm
 alias of:N*T*Cqcom,msm-audio-ionC* q6_dlkm
@@ -203,11 +196,14 @@ alias i2c:tda18212 tda18212
 alias i2c:mt2060 mt2060
 alias of:N*T*Cqcom,adsp-loader adsp_loader_dlkm
 alias of:N*T*Cqcom,adsp-loaderC* adsp_loader_dlkm
+alias i2c:cs35l40 cs35l41_dlkm
+alias i2c:cs35l41 cs35l41_dlkm
+alias of:N*T*Ccirrus,cs35l40 cs35l41_dlkm
+alias of:N*T*Ccirrus,cs35l40C* cs35l41_dlkm
+alias of:N*T*Ccirrus,cs35l41 cs35l41_dlkm
+alias of:N*T*Ccirrus,cs35l41C* cs35l41_dlkm
 alias of:N*T*Cqcom,lpi-pinctrl pinctrl_lpi_dlkm
 alias of:N*T*Cqcom,lpi-pinctrlC* pinctrl_lpi_dlkm
-alias of:N*T*Cfpc,fpc1020 fpc1540
-alias of:N*T*Cfpc,fpc1020C* fpc1540
-alias usb:v*p*d*dc*dsc*dp*icFFiscFFip*in40* usbdtp
 alias of:N*T*Cqcom,bolero-codec bolero_cdc_dlkm
 alias of:N*T*Cqcom,bolero-codecC* bolero_cdc_dlkm
 alias of:N*T*Cqcom,bolero-clk-rsc-mngr bolero_cdc_dlkm
@@ -233,7 +229,6 @@ alias pci:v000017CBd00001101sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd00001102sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd00001103sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd00001107sv*sd*bc*sc*i* cnss2
-alias i2c:rtc6226 radio_i2c_rtc6226_qca
 alias fs-exfat exfat
 alias of:N*T*Cir-spi ir_spi
 alias of:N*T*Cir-spiC* ir_spi
