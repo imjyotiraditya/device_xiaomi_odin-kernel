@@ -41,5 +41,5 @@
 /lib/modules/5.4-gki/phy-qcom-ufs-qrbtc-sdm845.ko: /lib/modules/5.4-gki/phy-qcom-ufs.ko
 /lib/modules/5.4-gki/crypto-qti-common.ko: /lib/modules/5.4-gki/crypto-qti-hwkm.ko /lib/modules/5.4-gki/hwkm.ko
 /lib/modules/5.4-gki/icc-rpmh.ko: /lib/modules/5.4-gki/icc-bcm-voter.ko /lib/modules/5.4-gki/qcom_rpmh.ko /lib/modules/5.4-gki/cmd-db.ko
-/lib/modules/5.4-gki/sdhci-msm.ko: /lib/modules/5.4-gki/cqhci-crypto-qti.ko /lib/modules/5.4-gki/cqhci.ko /lib/modules/5.4-gki/cqhci-crypto.ko /lib/modules/5.4-gki/crypto-qti-common.ko /lib/modules/5.4-gki/crypto-qti-hwkm.ko /lib/modules/5.4-gki/hwkm.ko /lib/modules/5.4-gki/pinctrl-msm.ko
+/lib/modules/5.4-gki/sdhci-msm.ko: /lib/modules/5.4-gki/cqhci-crypto-qti.ko /lib/modules/5.4-gki/cqhci.ko /lib/modules/5.4-gki/cqhci-crypto.ko /lib/modules/5.4-gki/crypto-qti-common.ko /lib/modules/5.4-gki/crypto-qti-hwkm.ko /lib/modules/5.4-gki/hwkm.ko
 /lib/modules/5.4-gki/gcc-shima.ko: /lib/modules/5.4-gki/clk-qcom.ko /lib/modules/5.4-gki/proxy-consumer.ko

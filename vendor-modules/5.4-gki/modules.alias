@@ -163,14 +163,10 @@ alias of:N*T*Cqcom,shima-vidc msm_vidc
 alias of:N*T*Cqcom,shima-vidcC* msm_vidc
 alias of:N*T*Cqcom,bengal-vidc msm_vidc
 alias of:N*T*Cqcom,bengal-vidcC* msm_vidc
-alias of:N*T*Cqcom,scuba-vidc msm_vidc
-alias of:N*T*Cqcom,scuba-vidcC* msm_vidc
 alias of:N*T*Cqcom,holi-vidc msm_vidc
 alias of:N*T*Cqcom,holi-vidcC* msm_vidc
 alias of:N*T*Cqcom,yupik-vidc msm_vidc
 alias of:N*T*Cqcom,yupik-vidcC* msm_vidc
-alias of:N*T*Cqcom,qcm6490-vidc msm_vidc
-alias of:N*T*Cqcom,qcm6490-vidcC* msm_vidc
 alias platform:spi_geni spi_msm_geni
 alias platform:swr-mstr swr_ctrl_dlkm
 alias of:N*T*Cqcom,shima-videocc videocc_shima
@@ -525,8 +521,6 @@ alias of:N*T*Cqcom,spmi-adc5 qcom_spmi_adc5
 alias of:N*T*Cqcom,spmi-adc5C* qcom_spmi_adc5
 alias of:N*T*Cqcom,spmi-adc7 qcom_spmi_adc5
 alias of:N*T*Cqcom,spmi-adc7C* qcom_spmi_adc5
-alias of:N*T*Cqcom,spmi-adc7-sw-calib qcom_spmi_adc5
-alias of:N*T*Cqcom,spmi-adc7-sw-calibC* qcom_spmi_adc5
 alias of:N*T*Cqcom,spmi-adc-rev2 qcom_spmi_adc5
 alias of:N*T*Cqcom,spmi-adc-rev2C* qcom_spmi_adc5
 alias of:N*T*Cqcom,spmi-adc5-lite qcom_spmi_adc5
